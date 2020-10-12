@@ -1,0 +1,10 @@
+#ContactCard {
+  background: tomato;
+  width: 250px;
+  height: 400px;
+  float: left;
+  position: relative;
+  transform: rotate(-70deg);
+  text-align: center;
+  margin: 300px 0px 0px 300px;
+}
