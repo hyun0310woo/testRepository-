@@ -1,0 +1,10 @@
+#SkillsCard {
+  background: violet;
+  width: 250px;
+  height: 400px;
+  float: left;
+  position: relative;
+  transform: rotate(70deg);
+  text-align: center;
+  margin-top: 300px;
+}

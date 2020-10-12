@@ -1,7 +1,12 @@
 import React from "react";
+import "../componentsStyles/Skills.css";
 
 const Skills = () => {
-  return <span id="SkillsCard">Skills </span>;
+  return (
+    <div id="SkillsCard">
+      <div>skill</div>
+    </div>
+  );
 };
 
 export default Skills;
