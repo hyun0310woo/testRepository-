@@ -1,10 +1,14 @@
 #ProjectsCard {
-  background: cadetblue;
+  background: #ff2929;
   width: 250px;
   height: 400px;
-  float: left;
   position: relative;
-  transform: rotate(30deg);
-  text-align: center;
-  margin-top: 300px;
+  float: left;
+  margin-left: -50px;
+  border-radius: 25px;
+}
+
+#ProjectsText {
+  font-size: 30px;
+  margin: 10px 0px 0px 10px;
 }

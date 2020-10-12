@@ -1,9 +1,13 @@
 #IntroduceCard {
-  background: darkgreen;
+  background: #ff7474;
   width: 250px;
   height: 400px;
-  float: left;
   position: relative;
-  text-align: center;
-  margin-top: 300px;
+  float: left;
+  border-radius: 25px;
+}
+
+#IntroduceText {
+  font-size: 30px;
+  margin: 10px 0px 0px 10px;
 }

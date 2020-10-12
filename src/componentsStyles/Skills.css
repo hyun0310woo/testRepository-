@@ -1,10 +1,15 @@
 #SkillsCard {
-  background: violet;
+  background: #b50000;
+
   width: 250px;
   height: 400px;
-  float: left;
   position: relative;
-  transform: rotate(70deg);
-  text-align: center;
-  margin-top: 300px;
+  float: left;
+  margin-left: -100px;
+  border-radius: 25px;
+}
+
+#skillsText {
+  font-size: 30px;
+  margin: 10px 0px 0px 10px;
 }

@@ -4,7 +4,7 @@ import "../componentsStyles/Projects.css";
 const Projects = () => {
   return (
     <div id="ProjectsCard">
-      <div>Projects</div>
+      <div id="ProjectsText">Projects</div>
     </div>
   );
 };
