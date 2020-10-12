@@ -1,11 +1,3 @@
 #portfolioBar {
-  border: 100px 100px 100px 100px;
-}
-#profileImg {
-  float: left;
-}
-
-#a {
-  float: right;
-  margin: 30px 100px 0px 0px;
+  position: relative;
 }
