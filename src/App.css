@@ -1,8 +1,10 @@
-/* .App {
-  text-align: center;
+#Cards {
+  /* text-align: center; */
+  margin-left: 25%;
+  margin-top: 200px;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }

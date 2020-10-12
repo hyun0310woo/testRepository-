@@ -5,16 +5,19 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import PortfolioBar from "./components/PortfolioBar";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div id="App">
       <PortfolioBar />
-      <Contact />
-      <Education />
-      <Introduce />
-      <Projects />
-      <Skills />
+      <div id="Cards">
+        <Contact />
+        <Education />
+        <Introduce />
+        <Projects />
+        <Skills />
+      </div>
     </div>
   );
 };
