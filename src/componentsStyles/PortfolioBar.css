@@ -1,5 +1,11 @@
 #portfolioBar {
-  border: 2px solid #000000;
-  color: wheat;
-  height: 80px;
+  border: 100px 100px 100px 100px;
+}
+#profileImg {
+  float: left;
+}
+
+#a {
+  float: right;
+  margin: 30px 100px 0px 0px;
 }

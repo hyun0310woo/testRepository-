@@ -4,7 +4,7 @@ import "../componentsStyles/Skills.css";
 const Skills = () => {
   return (
     <div id="SkillsCard">
-      <div>skill</div>
+      <div id="skillsText">Skills</div>
     </div>
   );
 };
