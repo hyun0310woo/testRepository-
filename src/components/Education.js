@@ -3,7 +3,7 @@ import "../componentsStyles/Education.css";
 
 const Education = () => {
   return (
-    <div onClick={() => alert("선택")} id="EducationCard">
+    <div id="EducationCard">
       <div id="EducationText">Education</div>
     </div>
   );

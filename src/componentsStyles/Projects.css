@@ -1,14 +1,23 @@
 #ProjectsCard {
-  background: #ff2929;
+  background: #56ab2f;
   width: 250px;
   height: 400px;
   position: relative;
-  float: left;
-  margin-left: -50px;
-  border-radius: 25px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 5px 5px 5px 5px darkgray;
+  margin-top: -330px;
+  border-right: 25px solid #309800;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+#ProjectsCard:hover {
+  transform: rotate(10deg);
+  margin-left: 30px;
 }
 
 #ProjectsText {
-  font-size: 30px;
-  margin: 10px 0px 0px 10px;
+  font-size: 35px;
+  margin: -15px 0px 0px 10px;
 }
