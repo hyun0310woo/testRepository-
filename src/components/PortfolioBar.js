@@ -40,7 +40,7 @@ const PortfolioBar = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar id="portfolioBar" light expand="md">
         <NavbarBrand href="/">사진위치</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
