@@ -10,12 +10,6 @@ const App = () => {
   return (
     <div>
       <PortfolioBar />
-      <div id="Cards">
-        <Education />
-        <Introduce />
-        <Projects />
-        <Skills />
-      </div>
     </div>
   );
 };
