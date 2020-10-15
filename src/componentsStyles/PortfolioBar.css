@@ -1,2 +1,5 @@
 #portfolioBar {
+  width: 300px;
+  background-color: green;
+  float: left;
 }
