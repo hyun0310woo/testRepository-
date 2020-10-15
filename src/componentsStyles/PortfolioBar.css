@@ -1,7 +1,3 @@
-* {
-  text-align: center;
-}
-
 #portfolioBar {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -13,29 +9,96 @@
   top: 0;
   left: 0;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.04);
-  /* background: green; */
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 #logo {
-  margin-bottom: 3.5em;
-  display: block;
+  margin-bottom: 120px;
   width: 100%;
   font-weight: 900;
   font-size: 34px;
-  color: black;
 }
 
-li {
-  display: list-item;
+#colorlib-main-menu {
+}
+
+.r-link {
+  display: var(--rLinkDisplay, inline-flex) !important;
   margin: 0 0 15px 0;
   padding: 0;
   list-style: none;
   font-size: 16px;
+}
+
+.r-link[href] {
+  color: var(--rLinkColor) !important;
+  text-decoration: var(--rLinkTextDecoration, none) !important;
+}
+
+.text-underlined {
+  --uiTextUnderlinedLineHeight: var(--textUnderlinedLineHeight, 2px); /* 1 */
+  --uiTextUnderlinedLineGap: var(--textUnderlinedLineGap, 0.5rem);
+  --uiTextUnderlinedPaddingBottom: calc(
+    var(--uiTextUnderlinedLineHeight) + var(--uiTextUnderlinedLineGap)
+  );
+
+  padding-bottom: var(--uiTextUnderlinedPaddingBottom) !important;
+  position: var(--textUnderlinedPosition, relative) !important;
+}
+
+.text-underlined::after {
+  content: "";
+  width: var(--textUnderlinedLineWidht, 100%) !important;
+  height: var(--uiTextUnderlinedLineHeight) !important;
+
+  background-color: var(--textUnderlinedLineColor, currentColor) !important;
+
+  position: absolute;
+  left: var(--textUnderlinedLineLeft, 0) !important;
+  bottom: var(--textUnderlinedLineBottom, 0) !important;
+}
+
+.link4::after {
+  opacity: 0;
+  transform: translate3d(0, 100%, 0);
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.link4:hover::after {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+:root {
+  --linkPadding: 10px 15px;
+  --linkLineWeight: 5px;
+  --outlinedTextWeight: 5px;
+  --outlinedTextLineColor: #243aab;
+  --outlinedTextPadding: 1px;
+  --textUnderlinedLineHeight: 5px;
+  --textUnderlinedLineGap: 0.01rem;
+  --textFlatBackgroundColor: #243aab;
+  --textFlatPadding: 0.75rem;
+  --linkLineColor: #243aab;
+  --linkTextColor: #243aab;
+  --linkTextColorHover: #1b255a;
+}
+
+.section {
+  display: flex;
+  text-align: left;
   font-weight: 700;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#flashText:not(.light) {
+  animation: flashText 0.5s ease-out alternate infinite;
+  color: #ffa1a1;
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.15;
+  }
 }

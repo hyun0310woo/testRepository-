@@ -5,32 +5,32 @@ import "../componentsStyles/PortfolioBar.css";
 const PortfolioBar = () => {
   return (
     <div id="portfolioBar">
-      <h1 id="logo">
-        <a href="/">portFolio</a>
-        <span>.</span>
-      </h1>
-      <nav id="colorlib-main-menu" role="navigation">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="Introduce">Introduce</a>
-          </li>
-          <li>
-            <a href="Education">Education</a>
-          </li>
-          <li>
-            <a href="Projects">Projects</a>
-          </li>
-          <li>
-            <a href="Skills">Skills</a>
-          </li>
-          <li>
-            <a href="Contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <h1 id="logo">portFolio</h1>
+      <div class="section">
+        <a href="/" class="r-link link text-underlined link4">
+          Home
+        </a>
+      </div>
+      <div class="section">
+        <a href="Education" class="r-link link text-underlined link4">
+          Education
+        </a>
+      </div>
+      <div class="section">
+        <a href="Projects" class="r-link link text-underlined link4">
+          Projects
+        </a>
+      </div>
+      <div class="section">
+        <a href="Skills" class="r-link link text-underlined link4">
+          Skills
+        </a>
+      </div>
+      <div class="section">
+        <div id="flashText">
+          <a href="Contact">Contact</a>
+        </div>
+      </div>
     </div>
   );
 };

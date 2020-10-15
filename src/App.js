@@ -13,8 +13,7 @@ const App = () => {
   return (
     <div id="colorlib-page">
       <PortfolioBar />
-      <Route id="overlay" exact path="/" component={Home} />
-      <Route path="/Introduce" component={Introduce} />
+      <Route exact path="/" component={Home} />
       <Route path="/Education" component={Education} />
       <Route path="/Projects" component={Projects} />
       <Route path="/Skills" component={Skills} />

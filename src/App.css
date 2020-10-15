@@ -1,15 +1,11 @@
 * {
   box-sizing: border-box;
-  color: #999999;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 #colorlib-page {
   width: 100%;
   overflow: hidden;
   position: relative;
-}
-
-div {
-  display: block;
 }
