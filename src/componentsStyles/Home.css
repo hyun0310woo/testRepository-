@@ -1,12 +1,34 @@
+.hero-wrap .text {
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 500;
+  /* text-align: center; */
+}
+
+/* 밑에 다시 */
+
+#main {
+  width: 80%;
+  float: right;
+}
+
 .img {
-  background-image: url("../Image/github.gif");
-  background-size: 150px;
-  width: 150px;
-  height: 150px;
+  background-image: url("../Image/profile.jpeg");
+  background-size: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .overlay {
-  width: 80%;
-  float: right;
-  position: relative;
+  z-index: 1;
+  font-size: 50px;
+}
+
+#background {
+  background-image: url("../Image/bg_1.jpg");
+  height: 796px;
+  /* background-position: 50% 50%; */
+  /* opacity: 0.6; */
+  z-index: 0;
 }
