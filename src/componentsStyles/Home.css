@@ -14,10 +14,24 @@
 
 .img {
   background-image: url("../Image/profile.jpeg");
-  background-size: 200px;
+  background-size: 220px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* #backImg {
+  background-image: url("../Image/backImg.jpeg");
+  height: 949px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+} */
+
+h1 {
+  color: black;
 }
 
 .overlay {
@@ -31,4 +45,8 @@
   /* background-position: 50% 50%; */
   /* opacity: 0.6; */
   z-index: 0;
+}
+
+.desc {
+  text-align: center;
 }
