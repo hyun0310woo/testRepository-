@@ -1,0 +1,12 @@
+.img {
+  background-image: url("../Image/github.gif");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.overlay {
+  width: 80%;
+  float: right;
+  position: relative;
+}
