@@ -1,5 +1,41 @@
+* {
+  text-align: center;
+}
+
 #portfolioBar {
-  width: 300px;
-  background-color: green;
-  float: left;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+  width: 20%;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.04);
+  /* background: green; */
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#logo {
+  margin-bottom: 3.5em;
+  display: block;
+  width: 100%;
+  font-weight: 900;
+  font-size: 34px;
+  color: black;
+}
+
+li {
+  display: list-item;
+  margin: 0 0 15px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
 }

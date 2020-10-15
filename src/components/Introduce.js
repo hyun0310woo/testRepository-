@@ -3,7 +3,7 @@ import "../componentsStyles/Introduce.css";
 
 const Introduce = () => {
   return (
-    <div id="IntroduceCard">
+    <div class="overlay">
       <div id="IntroduceText">Introduce</div>
     </div>
   );
