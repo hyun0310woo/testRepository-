@@ -27,7 +27,7 @@
   margin: 0 0 15px 0;
   padding: 0;
   list-style: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .r-link[href] {
@@ -90,7 +90,7 @@
   font-weight: 700;
   margin: auto;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #flashText:not(.light) {
