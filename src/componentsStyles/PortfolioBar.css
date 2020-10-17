@@ -90,6 +90,7 @@
   font-weight: 700;
   margin: auto;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 
 #flashText:not(.light) {
