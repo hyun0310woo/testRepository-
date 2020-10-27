@@ -5,7 +5,7 @@ import "../componentsStyles/PortfolioBar.css";
 const PortfolioBar = () => {
   return (
     <div id="portfolioBar">
-      <h1 id="logo">portFolio</h1>
+      <h1 id="logo">Portfolio</h1>
       <div class="section">
         <a href="/" class="r-link link text-underlined link4">
           Home
@@ -28,7 +28,9 @@ const PortfolioBar = () => {
       </div>
       <div class="section">
         <div id="flashText">
-          <a href="Contact">Contact</a>
+          <button>
+            <a href="Contact">Contact</a>
+          </button>
         </div>
       </div>
     </div>
