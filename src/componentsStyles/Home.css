@@ -1,5 +1,3 @@
-/* 밑에 다시 */
-
 #colorlib-main {
   width: 80%;
   float: right;
@@ -43,7 +41,7 @@ body {
   background-image: url("../Image/backImg.jpeg");
   height: 949px;
   background-position: 50% 28px;
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center center;
 }

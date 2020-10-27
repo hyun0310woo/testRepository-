@@ -10,6 +10,7 @@
   left: 0;
   z-index: 1001;
   background: rgba(0, 0, 0, 0.05);
+  /* overflow: scroll; */
 }
 
 #logo {
@@ -19,15 +20,12 @@
   font-size: 34px;
 }
 
-#colorlib-main-menu {
-}
-
 .r-link {
   display: var(--rLinkDisplay, inline-flex) !important;
-  margin: 0 0 15px 0;
   padding: 0;
   list-style: none;
-  font-size: 16px;
+  font-size: 17px;
+  color: black;
 }
 
 .r-link[href] {
@@ -36,7 +34,7 @@
 }
 
 .text-underlined {
-  --uiTextUnderlinedLineHeight: var(--textUnderlinedLineHeight, 2px); /* 1 */
+  --uiTextUnderlinedLineHeight: var(--textUnderlinedLineHeight, 2px);
   --uiTextUnderlinedLineGap: var(--textUnderlinedLineGap, 0.5rem);
   --uiTextUnderlinedPaddingBottom: calc(
     var(--uiTextUnderlinedLineHeight) + var(--uiTextUnderlinedLineGap)
@@ -50,9 +48,7 @@
   content: "";
   width: var(--textUnderlinedLineWidht, 100%) !important;
   height: var(--uiTextUnderlinedLineHeight) !important;
-
   background-color: var(--textUnderlinedLineColor, currentColor) !important;
-
   position: absolute;
   left: var(--textUnderlinedLineLeft, 0) !important;
   bottom: var(--textUnderlinedLineBottom, 0) !important;
@@ -75,7 +71,7 @@
   --outlinedTextWeight: 5px;
   --outlinedTextLineColor: #243aab;
   --outlinedTextPadding: 1px;
-  --textUnderlinedLineHeight: 5px;
+  --textUnderlinedLineHeight: 2px;
   --textUnderlinedLineGap: 0.01rem;
   --textFlatBackgroundColor: #243aab;
   --textFlatPadding: 0.75rem;
@@ -89,13 +85,16 @@
   text-align: left;
   font-weight: 700;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
 #flashText:not(.light) {
   animation: flashText 0.5s ease-out alternate infinite;
-  color: #ffa1a1;
+}
+
+#flashText {
+  text-decoration: var(--rLinkTextDecoration, none);
 }
 
 @keyframes flashText {
