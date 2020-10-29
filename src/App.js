@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "./components/Home";
 import "./App.css";
+import Slider from "./components/Slider";
 
 const App = () => {
-  return <Home />;
+  return <Slider />;
 };
 
 export default App;
